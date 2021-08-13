@@ -1,0 +1,43 @@
+title: "BlenderFDS"
+description: ""
+baseurl: "/"
+url: "https://blenderfds.org"
+logo: "/assets/images/logo.png"
+
+permalink: pretty
+exclude: ["LICENSE.txt", "README.md",]
+
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "light"
+
+search_enabled: true
+
+# Aux links for the upper right corner
+aux_links:
+  "BlenderFDS on GitHub":
+    - "//github.com/firetools/blenderfds"
+    
+aux_links_new_tab: false
+
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+  others:
+    permalink: "/:collection/:path/"
+    output: true
+    
+blenderfds:
+  collections:
+    docs:
+      name: Documentation
+      nav_exclude: false
+      search_exclude: false
+    others:
+      name: Others
+      nav_exclude: false
+      search_exclude: false
+
+# Google Analytics Tracking
+# ga_tracking: UA-...
+# ga_tracking_anonymize_ip: true
