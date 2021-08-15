@@ -6,16 +6,15 @@ description: "The open user interface for the NIST Fire Dynamics Simulator (FDS)
 permalink: /
 ---
 
-# BlenderFDS
+# **BlenderFDS**
 {: .fs-9 }
 
 The open user interface for the [NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/)
 {: .fs-6 .fw-300 }
 
-BlenderFDS helps you build complex FDS models faster, because it eases geometric data entry with powerful 3D editing tools.
-{: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Ask a question](https://groups.google.com/g/blenderfds){: .btn .fs-5 .mb-4 .mb-md-0 } [Submit an issue](https://github.com/firetools/blenderfds/issues){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+[Get started now](#getting-started FIXME){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Ask a question](https://groups.google.com/g/blenderfds){: .btn .fs-5 .mb-4 .mb-md-0 } [Submit an issue](https://github.com/firetools/blenderfds/issues){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -23,10 +22,12 @@ BlenderFDS helps you build complex FDS models faster, because it eases geometric
 
 Test
 
-## BlenderFDS, full control over the FDS input file
+## Full control over the FDS input file
 
 BlenderFDS helps you build complex FDS models *faster*,
-because it eases geometric data entry with powerful 3D editing tools, but you remain in full control over all the input parameters, as BlenderFDS does not hide the FDS complexity and flexibility.
+because it eases geometric data entry with powerful 3D editing tools,
+but you remain in full control over all the input parameters,
+as BlenderFDS does not hide the FDS complexity and flexibility.
 
 You can import CAD models and existing FDS input files,
 and quickly adapt them to your needs.
@@ -35,8 +36,7 @@ BlenderFDS is developed in Python
 as a free and open source [Blender](https://www.blender.org/) addon,
 and it is fully scriptable.
 
-BlenderFDS is available for [MS Windows, MacOSX, Linux](https://github.com/firetools/blenderfds/wiki/Installing).
-
+BlenderFDS is available for
 [![](https://github.com/firetools/blenderfds/wiki/images/web/win_mac_linux.png)](https://github.com/firetools/blenderfds/wiki/Installing)
 
 ![blenderfds](https://github.com/firetools/blenderfds/wiki/images/web/blenderfds.gif)
@@ -61,19 +61,45 @@ The resulting FDS file can be imported to BlenderFDS for further customization.
 
 ![qgis2fds](https://github.com/firetools/blenderfds/wiki/images/web/qgis2fds-blenderfds.gif)
 
-## Funded by the WUIFI-21 project
+---
 
-The development of BlenderFDS is funded by a grant from
-the [Italian Ministry of Foreign Affairs and International Cooperation](https://www.esteri.it/).
+## About the project
 
-![MAECI](https://github.com/firetools/blenderfds/wiki/images/logo_maeci.jpeg)
+This project is &copy; 2009-{{ "now" | date: "%Y" }} by [Emanuele Gissi](https://emanuelegissi.eu).
 
-## License
+### License and funding
 
-BlenderFDS is free software under the terms of
+This project is free software under the terms of
 the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html).
 It is distributed in the hope that it will be useful,
 but without any warranty.
 
 If you prefer buying professional support, take a look at
 [PyroSim](https://www.thunderheadeng.com/pyrosim)
+
+The development of BlenderFDS was partially funded by a grant from
+the [Italian Ministry of Foreign Affairs and International Cooperation](https://www.esteri.it/).
+
+![MAECI](https://github.com/firetools/blenderfds/wiki/images/logo_maeci.jpeg)
+
+### Contributing
+
+When contributing, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository before making a change. FIXME
+Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+
+#### Thank you to the contributors!
+
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+</ul>
+
+### Code of Conduct
+
+This project is committed to fostering a welcoming community.
+
+[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
