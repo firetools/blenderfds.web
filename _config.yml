@@ -2,7 +2,7 @@ title: "BlenderFDS"
 description: ""
 baseurl: "/"
 url: "https://blenderfds.org"
-logo: "/assets/images/logo.png"
+#logo: "/assets/images/icon.png"
 
 permalink: pretty
 exclude: ["LICENSE.txt", "README.md",]
