@@ -8,7 +8,7 @@ permalink: pretty
 exclude: ["LICENSE.txt", "README.md",]
 
 remote_theme: pmarsceill/just-the-docs
-color_scheme: "light"
+color_scheme: "light"  # or a custom scheme that you define
 
 search_enabled: true
 
@@ -38,6 +38,19 @@ blenderfds:
       nav_exclude: false
       search_exclude: false
 
-# Google Analytics Tracking
-# ga_tracking: UA-...
-# ga_tracking_anonymize_ip: true
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/firetools/blenderfds.web"
+gh_edit_branch: "main"
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+
+# Google Analytics Tracking (optional)
+# ga_tracking: UA-2709176-10
+# ga_tracking_anonymize_ip: true  # GDPR compliance

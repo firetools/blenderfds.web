@@ -93,4 +93,4 @@ Read more about becoming a contributor in [our GitHub repo](https://github.com/p
 
 This project is committed to fostering a welcoming community.
 
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+[View our Code of Conduct](https://github.com/firetools/blenderfds.web/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
