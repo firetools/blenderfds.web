@@ -12,46 +12,37 @@ permalink: /
 The open user interface for the [NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/)
 {: .fs-6 .fw-300 }
 
-
-
 [Get started now](#getting-started FIXME){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Ask a question](https://groups.google.com/g/blenderfds){: .btn .fs-5 .mb-4 .mb-md-0 } [Submit an issue](https://github.com/firetools/blenderfds/issues){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## Getting started
+![blenderfds](https://github.com/firetools/blenderfds/wiki/images/web/blenderfds.gif)
 
-Test
+## Easy and fast
 
-## Full control over the FDS input file
-
-BlenderFDS helps you build complex FDS models *faster*,
+BlenderFDS helps you build complex
+[NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/) models *faster*,
 because it eases geometric data entry with powerful 3D editing tools,
 but you remain in full control over all the input parameters,
 as BlenderFDS does not hide the FDS complexity and flexibility.
-
-You can import CAD models and existing FDS input files,
-and quickly adapt them to your needs.
-
-BlenderFDS is developed in Python
-as a free and open source [Blender](https://www.blender.org/) addon,
-and it is fully scriptable.
-
-BlenderFDS is available for
-[![](https://github.com/firetools/blenderfds/wiki/images/web/win_mac_linux.png)](https://github.com/firetools/blenderfds/wiki/Installing)
-
-![blenderfds](https://github.com/firetools/blenderfds/wiki/images/web/blenderfds.gif)
-
-## What is FDS?
 
 [NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/)
 is a large-eddy simulation (LES) code for low-speed flows,
 with an emphasis on smoke and heat transport from fires.
 
-## What is Blender?
+## Open and free
+
+BlenderFDS is developed in Python
+as a free and open source [Blender](https://www.blender.org/) addon.
 
 [Blender](https://www.blender.org/) is the free and open source 3D creation suite.
 It supports the entirety of the 3D pipeline from modelling to visualisation,
 and BlenderFDS makes use of its 3D modeling tools.
+
+You can import CAD models and existing FDS input files,
+and quickly adapt them to your needs.
+
+[![](https://github.com/firetools/blenderfds/wiki/images/web/win_mac_linux.png)](https://github.com/firetools/blenderfds/wiki/Installing)
 
 ## A family of open tools for FDS
 
