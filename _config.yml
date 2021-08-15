@@ -1,8 +1,8 @@
 title: "BlenderFDS"
-description: ""
-baseurl: "/"
-url: "https://blenderfds.org"
-#logo: "/assets/images/icon.png"
+description: "The open user interface for the NIST Fire Dynamics Simulator (FDS)"
+url: "https://firetools.github.io"
+baseurl: "/blenderfds.web"
+logo: "/assets/images/icon.png"
 
 permalink: pretty
 exclude: ["LICENSE.txt", "README.md",]
@@ -12,33 +12,11 @@ color_scheme: "light"  # or a custom scheme that you define
 
 search_enabled: true
 
-# Aux links for the upper right corner
-aux_links:
+aux_links:  # aux links for the upper right corner
   "BlenderFDS on GitHub":
     - "//github.com/firetools/blenderfds"
-    
 aux_links_new_tab: false
 
-collections:
-  docs:
-    permalink: "/:collection/:path/"
-    output: true
-  others:
-    permalink: "/:collection/:path/"
-    output: true
-    
-blenderfds:
-  collections:
-    docs:
-      name: Documentation
-      nav_exclude: false
-      search_exclude: false
-    others:
-      name: Others
-      nav_exclude: false
-      search_exclude: false
-
-# Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
 
@@ -49,7 +27,6 @@ gh_edit_repository: "https://github.com/firetools/blenderfds.web"
 gh_edit_branch: "main"
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-
 
 # Google Analytics Tracking (optional)
 # ga_tracking: UA-2709176-10
