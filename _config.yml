@@ -2,9 +2,10 @@ title: "BlenderFDS"
 description: "The open user interface for the NIST Fire Dynamics Simulator (FDS)"
 url: "https://firetools.github.io"
 baseurl: "/blenderfds.web"
-logo: "/assets/images/icon.png"
 
-permalink: pretty
+#logo: "/assets/images/icon.png"
+
+#permalink: pretty
 exclude: ["LICENSE.txt", "README.md",]
 
 remote_theme: pmarsceill/just-the-docs

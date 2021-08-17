@@ -1,8 +1,22 @@
-This wiki page describes how to set up your BlenderFDS installation.
+---
+layout: default
+title: Install
+nav_order: 2
+---
 
- * [Requirements](#requirements)
- * [Install a *stable* version](#install-a-stable-version)
- * [Install a *live* development version](#install-a-live-development-version)
+# Configuration
+{: .no_toc }
+
+This page describes how to set up your BlenderFDS installation as a Blender addon.
+{: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Requirements
 
