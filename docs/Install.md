@@ -37,7 +37,7 @@ and click on the `blenderfds.zip` package of the latest release.
 
 The release zipped file is downloaded to your computer.
 
-![](assets/images/install/pref_addon_download.png)
+![](/assets/images/install/pref_addon_download.png)
 
 ### Step 2: Install and enable the addon
 
@@ -49,7 +49,7 @@ To install the just downloaded release:
  * click on the `Install` button and use the file browser to select the `blenderfds.zip` you downloaded in the previous step;
  * enable the BlenderFDS addon by checking the box to the left;
 
-![](assets/images/install/pref_addon_enable.png)
+![](/assets/images/install/pref_addon_enable.png)
 
 The BlenderFDS functionality should become immediately available.
 
@@ -62,7 +62,7 @@ By clicking on the arrow at the left of the addon in the `Preferences > Add-ons`
 
 Click on the `Load Default BlenderFDS Settings` button to complete the setup.
 
-![](assets/images/install/pref_addon_postinstall.png)
+![](/assets/images/install/pref_addon_postinstall.png)
 
 ## Install a *live* development version
 
@@ -98,7 +98,7 @@ To enable the just cloned addon:
  * select the `Add-ons` section in the `Preferences` panel;
  * search and enable the BlenderFDS addon by checking the box to the right;
 
-![](assets/images/install/pref_addon_enable.png)
+![](/assets/images/install/pref_addon_enable.png)
 
 The BlenderFDS functionality should become immediately available.
 
@@ -109,5 +109,5 @@ If the addon does not activate, check the console window for any errors that may
 
 Do what is described in step 3 of the previous paragraph to setup the addon.
 
-![](assets/images/install/ui_imported_couch.png)
+![](/assets/images/install/ui_imported_couch.png)
 
