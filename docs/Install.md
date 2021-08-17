@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Install
-nav_order: 3
+nav_order: 10
+parent: Howto
 ---
 
-# Install
+# Install BlenderFDS
 {: .no_toc }
 
 This page describes how to set up your BlenderFDS installation as a Blender addon.

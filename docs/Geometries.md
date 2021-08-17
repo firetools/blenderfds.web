@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Geometries
-nav_order: 6
+nav_order: 11
+parent: Howto
 ---
 
-# Geometries
+# Export FDS geometries
 {: .no_toc }
 
 This page explains how the geometries referenced by a `Blender Object` are exported to FDS *geometric* namelists.

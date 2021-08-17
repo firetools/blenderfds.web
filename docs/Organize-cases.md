@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Organize cases
-nav_order: 8
+nav_order: 13
+parent: Howto
 ---
 
-# Organize cases
+# Organize the FDS cases
 {: .no_toc }
 
 This page explains how to organize the namelists of your FDS case

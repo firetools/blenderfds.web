@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Boundary conditions
-nav_order: 7
+nav_order: 12
+parent: Howto
 ---
 
-# Boundary conditions
+# Set FDS boundary conditions
 {: .no_toc }
 
 This page explains how to set and link boundary conditions to the object geometries
