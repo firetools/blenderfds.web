@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geometries
-nav_order: 2
+nav_order: 6
 ---
 
 # Geometries

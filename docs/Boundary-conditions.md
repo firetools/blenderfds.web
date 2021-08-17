@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Boundary conditions
-nav_order: 2
+nav_order: 7
 ---
 
 # Boundary conditions
