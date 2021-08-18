@@ -22,17 +22,11 @@ This page describes BlenderFDS evolution.
 
 ### DEV: [BlenderFDS main development repository](https://github.com/firetools/blenderfds)
 
-Development
-{: .label .label-red }
-
 The current development version is verified to work with **Blender 2.93.0**,
 and supports import/export to **FDS 6 and 7** (unreleased).
 This version is not intended for production environments.
 
 ### 2021-02-16: [BlenderFDS 5.1.0](https://github.com/firetools/blenderfds/releases/tag/v5.1.0)
-
-Latest stable release
-{: .label .label-purple }
 
 This new **minor** release is verified to work with **Blender 2.91.2**,
 and supports import/export to **FDS 6 and 7** (unreleased).
