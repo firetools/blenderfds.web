@@ -33,6 +33,7 @@ and supports import/export to **FDS 6 and 7** (unreleased).
 
 
 #### New features for users:
+{: .no_toc }
 
 * As requested by the users, BlenderFDS now takes into account the Blender [View Layers](https://docs.blender.org/manual/en/latest/render/layers/layers.html) settings.
 Blender collections that are not enabled in the current view layer, and all the contained objects, are excluded from exporting.
