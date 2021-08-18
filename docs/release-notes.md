@@ -27,7 +27,8 @@ The current development version is verified to work with **Blender 2.93.0**,
 and supports import/export to **FDS 6 and 7** (unreleased).
 This version is not intended for production environments.
 
-### 2021-02-16: [BlenderFDS 5.1.0](https://github.com/firetools/blenderfds/releases/tag/v5.1.0){: .d-inline-block }
+### 2021-02-16: [BlenderFDS 5.1.0](https://github.com/firetools/blenderfds/releases/tag/v5.1.0)
+{: .d-inline-block }
 
 Stable
 {: .label .label-green }
