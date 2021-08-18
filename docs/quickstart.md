@@ -20,7 +20,7 @@ This page guides the new user to a quick overview on how to use BlenderFDS.
 
 ## Before starting
 
-You should already have the [Blender application](https://www.blender.org/) installed on your computer, and the [BlenderFDS](https://github.com/firetools/blenderfds) addon enabled. If not, [this page](Install) explains how to do that.
+You should already have the [Blender application](https://www.blender.org/) installed on your computer, and the [BlenderFDS](https://github.com/firetools/blenderfds) addon enabled. If not, [this page](howto/install) explains how to do that.
 
 If you are completely new to Blender, I suggest the following preliminary interesting reads:
 
