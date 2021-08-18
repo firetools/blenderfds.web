@@ -10,7 +10,7 @@ nav_order: 2
 This page guides the new user to a quick overview on how to use BlenderFDS.
 {: .fs-6 .fw-300 }
 
-*
+* TOC
 {:toc}
 
 ---
