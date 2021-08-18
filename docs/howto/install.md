@@ -19,17 +19,27 @@ This page describes how to set up your BlenderFDS installation as a Blender addo
 
 ---
 
-## Requirements
+## Preliminary check of software requirements
+
+The *BlenderFDS* addon extends the [Blender application](https://www.blender.org/)
+and produces input files for the [NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/) tool.
+
+Being so specific in scope, the BlenderFDS addon is not distributed with the official Blender bundle.
+So to begin using this plugin, you need to download, install, and enable the latest released version as follows.
 
 First, install the [Blender application](https://www.blender.org/) on your computer,
 as explained in the relevant [Blender documentation](https://docs.blender.org/manual/en/latest/getting_started/install/index.html).
 
-Take a look at the [software requirements](../software-requirements) page for required software versions.
+Then install the [FDS bundle](https://pages.nist.gov/fds-smv/),
+as described in its [User's Guide](https://pages.nist.gov/fds-smv/manuals.html).
+
+The latest *BlenderFDS* addon version is tested with specific software versions,
+other versions may not work properly. Please check the required versions in
+the [release notes](../release-notes).
 
 ## Install a *stable* version
 
-Being so specific in scope, the BlenderFDS addon is not distributed with Blender.
-To begin using this plugin, you need to download, install, and enable the latest released version as follows.
+If you want to work on a stable, well checked version of BlenderFDS, follow the next steps.
 
 ### Step 1: Download the plugin
 
@@ -67,7 +77,10 @@ Click on the `Load Default BlenderFDS Settings` button to complete the setup.
 
 ## Install a *live* development version
 
-If you want to stay on the edge of development to test brand new features, instead of installing a stable version, you can clone the `firetools/blenderfds` repository to your local Blender addons folder. Beware that you need to be Git savvy to install a *live* development version.
+If you want to stay on the edge of development to test brand new features,
+instead of installing a stable version, you can clone the `firetools/blenderfds` repository
+to your local Blender addons folder.
+Beware that you need to be Git savvy to install a *live* development version.
 
 ### Step 1: Find the right location
 
@@ -87,7 +100,7 @@ Note that, if installing the first addon yourself, you may need to create the `a
 ### Step 2: Clone the repo and enable the addon
 
 Next, with the `Git` tool already installed, get into your `addons` directory and clone the `blenderfds` repository as follows:
-```
+```bash
 $ cd ~/Library/ApplicationSupport/Blender/2.90/scripts/addons/
 $ git clone git@github.com:firetools/blenderfds.git
 ```
