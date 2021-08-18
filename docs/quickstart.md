@@ -110,7 +110,7 @@ The `Outliner` is a tree that organizes the data of the blend file: `Blender Sce
 Each row in the `Outliner` shows a data-block, and what other data-blocks it contains. Data-blocks can be dragged and dropped to manage data relations. Objects can be moved to collections by dropping on the name or contents of a collection.
 
 Collections are a way BlenderFDS uses to organize the FDS case. The exported namelists are first ordered by collection, then by `ID` parameter alphabetic order.
-See [this](organize-cases) wiki page for further detail. 
+See [this page](howto/organize-cases) for further detail. 
 
 ![](images/quickstart/bf_editor_outliner.png)
 
@@ -143,7 +143,7 @@ The panel changes depending on the selected namelist, and manages several of its
 
 At the top of the tab, you find three buttons: `FDS Geometry`, `FDS Code`, and `Copy To`. Clicking on the first button creates a temporary object in the `3D Viewport` that shows how the choosen geometry (eg. `XB`, `XYZ`, `PB`, ...) is going to be exported to the FDS case. Clicking on the second button shows the FDS code that is going to be exported from the selected `Blender Object`. The third button is used to copy the parameters values from the currently active object to other selected objects.
 
-See [this wiki page](Geometries) for further details on how object geometries are exported to the FDS case.
+See [this wiki page](howto/geometries) for further details on how object geometries are exported to the FDS case.
 
 ![](images/quickstart/bf_panel_object.png)
 
@@ -232,5 +232,5 @@ If you want to quickly, navigate between the scenes click on the pop-down menu s
 ## Step 9: Relax and enjoy
 
 After such a long journey, you are now ready to enjoy BlenderFDS, the free and open-source user interface for FDS.
-Many more features are offered by its interface, described in detail by other wiki pages. 
+Many more features are offered by its interface, described in detail by the [howto pages](howto). 
 
