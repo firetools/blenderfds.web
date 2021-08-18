@@ -18,12 +18,19 @@ This page describes BlenderFDS evolution.
 ## Current versions
 
 ### DEV: [BlenderFDS main development repository](https://github.com/firetools/blenderfds)
+{: .d-inline-block }
+
+Unstable
+{: .label .label-red }
 
 The current development version is verified to work with **Blender 2.93.0**,
 and supports import/export to **FDS 6 and 7** (unreleased).
 This version is not intended for production environments.
 
-### 2021-02-16: [BlenderFDS 5.1.0](https://github.com/firetools/blenderfds/releases/tag/v5.1.0)
+### 2021-02-16: [BlenderFDS 5.1.0](https://github.com/firetools/blenderfds/releases/tag/v5.1.0){: .d-inline-block }
+
+Stable
+{: .label .label-green }
 
 This new **minor** release is verified to work with **Blender 2.91.2**,
 and supports import/export to **FDS 6 and 7** (unreleased).
