@@ -24,7 +24,7 @@ This page describes how to set up your BlenderFDS installation as a Blender addo
 First, install the [Blender application](https://www.blender.org/) on your computer,
 as explained in the relevant [Blender documentation](https://docs.blender.org/manual/en/latest/getting_started/install/index.html).
 
-Take a look at the [software requirements](Software-requirements) page for required software versions.
+Take a look at the [software requirements](../software-requirements) page for required software versions.
 
 ## Install a *stable* version
 
@@ -59,7 +59,7 @@ In this case, please file an issue on the [issue tracker](https://github.com/fir
 
 ### Step 3: Post install setup
 
-By clicking on the arrow at the left of the addon in the `Preferences > Add-ons` panel, you can see the relevant information and links. In the same section, you find the BlenderFDS [preferences]().
+By clicking on the arrow at the left of the addon in the `Preferences > Add-ons` panel, you can see the relevant information and links. In the same section, you find the BlenderFDS [preferences](TODO).
 
 Click on the `Load Default BlenderFDS Settings` button to complete the setup.
 

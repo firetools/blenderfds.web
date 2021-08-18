@@ -28,10 +28,10 @@ The order of namelists in the exported FDS case file is the following:
 
 | Order | Category | Example namelists | Exported From | Reference |
 | :---: | :--- | :--- | :--- | :--- |
-| 1 | General configuration | `HEAD`, `TIME`, `MISC`, `REAC`, ... | `Blender Scene` | See [link](Quickstart#blender-scene-tab) |
-| 2 | Free text | Any namelist group | `Blender Text` | See [link](Quickstart#the-text-editor) |
-| 3 | Boundary conditions | `SURF` | `Blender Material` | See [link](Quickstart#blender-material-tab) |
-| 4 | Geometric entities  | `OBST`, `VENT`, `GEOM`, `SLCF`, `DEVC`, ... | `Blender Object` | See [link](Quickstart#blender-object-tab) |
+| 1 | General configuration | `HEAD`, `TIME`, `MISC`, `REAC`, ... | `Blender Scene` | See [link](../quickstart#blender-scene-tab) |
+| 2 | Free text | Any namelist group | `Blender Text` | See [link](../quickstart#the-text-editor) |
+| 3 | Boundary conditions | `SURF` | `Blender Material` | See [link](../quickstart#blender-material-tab) |
+| 4 | Geometric entities  | `OBST`, `VENT`, `GEOM`, `SLCF`, `DEVC`, ... | `Blender Object` | See [link](../quickstart#blender-object-tab) |
 
 Boundary conditions are sorted in alphabetic order by name, corresponding to their FDS `ID` parameter.
 

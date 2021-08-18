@@ -67,7 +67,7 @@ add one or more `VENTs` over the appropriate faces, or use the new `GEOM` nameli
 ## Setting the boundary conditions of `GEOM` namelists
 
 The `GEOM` geometric namelist extends the traditional `OBST` box-shaped obstacle
-to a generic-shaped obstacle in the fluid domain, as shown in the [Geometries wiki page](Geometries).
+to a generic-shaped obstacle in the fluid domain, as shown in the [Geometries wiki page](geometries).
 
 A different boundary condition can be assigned to each face of the triangulated surface.
 The available boundary conditions are linked into the `GEOM` line by the `SURF_ID` parameter.
