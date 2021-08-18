@@ -11,10 +11,7 @@ nav_order: 13
 This page explains how to organize the namelists of your FDS case
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
+* TOC
 {:toc}
 
 ---

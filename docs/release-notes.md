@@ -10,10 +10,7 @@ nav_order: 3
 This page describes BlenderFDS evolution.
 {: .fs-6 .fw-300 }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
+* TOC
 {:toc}
 
 ---
