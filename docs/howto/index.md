@@ -11,11 +11,6 @@ nav_order: 100
 The following pages describe BlenderFDS use and application.
 {: .fs-6 .fw-300 }
 
----
-
-## Table of contents
-{: .no_toc .text-delta }
-
 * TOC
 {:toc}
 
