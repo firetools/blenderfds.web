@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Boundary conditions
-nav_order: 12
 parent: Howto
+nav_order: 12
 ---
 
 # Set FDS boundary conditions

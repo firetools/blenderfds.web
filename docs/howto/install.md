@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Install
-nav_order: 10
 parent: Howto
+nav_order: 10
 ---
 
 # Install BlenderFDS

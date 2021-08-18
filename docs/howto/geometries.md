@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Geometries
-nav_order: 11
 parent: Howto
+nav_order: 11
 ---
 
 # Export FDS geometries

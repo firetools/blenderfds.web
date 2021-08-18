@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Organize cases
-nav_order: 13
 parent: Howto
+nav_order: 13
 ---
 
 # Organize the FDS cases
