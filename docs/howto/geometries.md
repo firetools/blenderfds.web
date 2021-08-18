@@ -11,6 +11,11 @@ nav_order: 11
 This page explains how the geometries referenced by a `Blender Object` are exported to FDS *geometric* namelists.
 {: .fs-6 .fw-300 }
 
+---
+
+## Table of contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 

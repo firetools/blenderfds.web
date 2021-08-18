@@ -11,6 +11,11 @@ nav_order: 10
 This page describes how to set up your BlenderFDS installation as a Blender addon.
 {: .fs-6 .fw-300 }
 
+---
+
+## Table of contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 

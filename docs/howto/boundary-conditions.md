@@ -11,6 +11,11 @@ nav_order: 12
 This page explains how to set and link boundary conditions to the object geometries
 {: .fs-6 .fw-300 }
 
+---
+
+## Table of contents
+{: .no_toc .text-delta }
+
 * TOC
 {:toc}
 
