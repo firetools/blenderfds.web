@@ -12,11 +12,11 @@ permalink: /
 The open user interface for the [NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/)
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started FIXME){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Ask a question](https://groups.google.com/g/blenderfds){: .btn .fs-5 .mb-4 .mb-md-0 } [Submit an issue](https://github.com/firetools/blenderfds/issues){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](docs/quickstart){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Ask a question](https://groups.google.com/g/blenderfds){: .btn .fs-5 .mb-4 .mb-md-0 } [Submit an issue](https://github.com/firetools/blenderfds/issues){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-![blenderfds](https://github.com/firetools/blenderfds/wiki/images/web/blenderfds.gif)
+![blenderfds](docs/images/web/blenderfds.gif)
 
 ## Easy and fast
 
@@ -26,8 +26,7 @@ because it eases geometric data entry with powerful 3D editing tools,
 but you remain in full control over all the input parameters,
 as BlenderFDS does not hide the FDS complexity and flexibility.
 
-[NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/)
-is a large-eddy simulation (LES) code for low-speed flows,
+FDS is a large-eddy simulation (LES) code for low-speed flows,
 with an emphasis on smoke and heat transport from fires.
 
 ## Open and free
@@ -35,14 +34,14 @@ with an emphasis on smoke and heat transport from fires.
 BlenderFDS is developed in Python
 as a free and open source [Blender](https://www.blender.org/) addon.
 
-[Blender](https://www.blender.org/) is the free and open source 3D creation suite.
+Blender is the free and open source 3D creation suite.
 It supports the entirety of the 3D pipeline from modelling to visualisation,
 and BlenderFDS makes use of its 3D modeling tools.
 
 You can import CAD models and existing FDS input files,
 and quickly adapt them to your needs.
 
-[![](https://github.com/firetools/blenderfds/wiki/images/web/win_mac_linux.png)](https://github.com/firetools/blenderfds/wiki/Installing)
+[![](docs/images/web/win_mac_linux.png)](docs/howto/install)
 
 ## A family of open tools for FDS
 
@@ -50,7 +49,7 @@ Another companion tool is [qgis2fds](https://github.com/firetools/qgis2fds/wiki)
 that exports terrains and landuse for wildfire simulation and atmospheric dispersion of fire pollutants.
 The resulting FDS file can be imported to BlenderFDS for further customization.
 
-![qgis2fds](https://github.com/firetools/blenderfds/wiki/images/web/qgis2fds-blenderfds.gif)
+![qgis2fds](docs/images/web/qgis2fds-blenderfds.gif)
 
 ---
 
@@ -71,13 +70,13 @@ If you prefer buying professional support, take a look at
 The development of BlenderFDS was partially funded by a grant from
 the [Italian Ministry of Foreign Affairs and International Cooperation](https://www.esteri.it/).
 
-![MAECI](https://github.com/firetools/blenderfds/wiki/images/logo_maeci.jpeg)
+![MAECI](docs/images/logo_maeci.jpeg)
 
-### Contributing
+### Code of Conduct
 
-When contributing, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. FIXME
-Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+This project is committed to fostering a welcoming community.
+
+[View our Code of Conduct](https://github.com/firetools/blenderfds.web/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
 
 #### Thank you to the contributors!
 
@@ -88,9 +87,3 @@ Read more about becoming a contributor in [our GitHub repo](https://github.com/p
   </li>
 {% endfor %}
 </ul>
-
-### Code of Conduct
-
-This project is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/firetools/blenderfds.web/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
