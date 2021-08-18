@@ -19,9 +19,9 @@ This page describes how to set up your BlenderFDS installation as a Blender addo
 
 ---
 
-## Preliminary check of software requirements
+## Software requirements
 
-The *BlenderFDS* addon extends the [Blender application](https://www.blender.org/)
+BlenderFDS is an addon that extends the [Blender application](https://www.blender.org/)
 and produces input files for the [NIST Fire Dynamics Simulator (FDS)](https://pages.nist.gov/fds-smv/) tool.
 
 Being so specific in scope, the BlenderFDS addon is not distributed with the official Blender bundle.
@@ -30,7 +30,7 @@ So to begin using this plugin, you need to download, install, and enable the lat
 First, install the [Blender application](https://www.blender.org/) on your computer,
 as explained in the relevant [Blender documentation](https://docs.blender.org/manual/en/latest/getting_started/install/index.html).
 
-Then install the [FDS bundle](https://pages.nist.gov/fds-smv/),
+Then install the [FDS bundle](https://pages.nist.gov/fds-smv/) on your computer,
 as described in its [User's Guide](https://pages.nist.gov/fds-smv/manuals.html).
 
 The latest *BlenderFDS* addon version is tested with specific software versions,
