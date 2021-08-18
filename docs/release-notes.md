@@ -61,6 +61,7 @@ A new **major** BlenderFDS release is out, ported to the Blender 2.9x series:
 * The new file format is not fully backward compatible, so double check your old input files.
 
 #### New features for users:
+{: .no_toc }
 
 * All the new Blender 2.9x features for 3d modelling, see its [release notes](https://wiki.blender.org/wiki/Reference/Release_Notes)
 * New managed namelists: `GEOM`, `PRES`, `CATF`, `MOVE`.
@@ -75,6 +76,7 @@ A new **major** BlenderFDS release is out, ported to the Blender 2.9x series:
 * New management tool for *other parameters*, in addition to those that are directly managed.
 
 #### New features for developers:
+{: .no_toc }
 
 * The new verification suite automatically checks the code by performing full import and export of all the official FDS V&V cases.
 * The Blender Object, Material, Collection, and Scene are extended with `from_fds()` and `to_fds()` methods.
@@ -92,6 +94,7 @@ This release was badly delayed by the [Morandi bridge collapse](https://www.nyti
 Now back to BlenderFDS.
 
 #### New features for users:
+{: .no_toc }
 
 * New `FDS Case config` panel for each Blender Scene. 
 * Vastly improved support for `GEOM` namelist:
@@ -117,6 +120,7 @@ Now back to BlenderFDS.
 * New FDS default values treatment: default values are not exported to the FDS case. The default value is shown in the help message when hovering over the property field.
 
 #### New features for developers:
+{: .no_toc }
 
 * Improved Python code structure towards the large transformations towards Blender 2.8 support
 * Code clean-up for Python PEP8
@@ -127,6 +131,7 @@ Now back to BlenderFDS.
 A new **maintenance** release is out.
 
 #### New features for users:
+{: .no_toc }
 
 * Bug fixing: UI, FDS file formatting.
 
@@ -136,6 +141,7 @@ A new **maintenance** release is out.
 A new **maintenance** release is out.
 
 #### New features for users:
+{: .no_toc }
 
 * Bug fixing. Some Blender 2.79 packages have an older Python interpreter embedded, this was breaking BlenderFDS. Fixed!
 * Pushing forward some minor simplified UI enhancements.
@@ -146,6 +152,7 @@ A new **maintenance** release is out.
 A new **minor** release is out.
 
 #### New features for users:
+{: .no_toc }
 
 * Improvement of the voxelization algorithm, better continuity between close objects
 * Experimental support for importing and exporting the future `GEOM` namelist
@@ -168,6 +175,7 @@ It is now fixed.
 A new **minor** release is out.
 
 #### New features for users
+{: .no_toc }
 
 * The calculated FDS geometry is now cached inside Blender Objects. Exporting of unmodified objects to FDS is now lightning fast!
 * Improved management of displayed FDS geometries
@@ -247,6 +255,7 @@ A new **major** BlenderFDS release is out:
 This is the first version after the huge migration to GitHub. This release was delayed by at least one year, because  I was very taken by the working-groups on the new Italian Fire Code.
 
 #### Thank you!
+{: .no_toc }
 
 First of all, I would like to **sincerely thank** all the contributors that financially supported BlenderFDS development during the last crowdfunding campaign.
 
@@ -259,6 +268,7 @@ A particular thank goes to our sponsors:
 This version of BlenderFDS is the result of a huge effort: the codebase was complitely reviewed and restructured to make place for new features and guarantee future maintainability. The source code is now fully object oriented, fully commented, and much more readable.
 
 #### New features for users
+{: .no_toc }
 
 * Simplified user interface.
 * BlenderFDS can **import existing FDS case files** to BlenderFDS scenes (`File > Import > FDS case`).
@@ -279,6 +289,7 @@ This version of BlenderFDS is the result of a huge effort: the codebase was comp
 * Custom snippets path preference in `Blender User Preferences > Add-Ons` panel.
 
 #### New features for developers
+{: .no_toc }
 
 * New *programming API*: `context.scene.to_fds()`, `context.object.to_fds()`, `context.material.to_fds()`, `context.scene.from_fds()`. Build or modify your geometry using Python programming language!
 * New debug mode and timing.
